@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vishal Play</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-family: Arial;
+        }
+        h1 {
+            color: yellow;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background: red;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🎮 Vishal Play</h1>
+    <p>Welcome macha 😄</p>
+
+    <button onclick="playGame()">Play Game</button>
+
+    <p id="gameText"></p>
+
+    <script>
+        function playGame() {
+            document.getElementById("gameText").innerHTML = "Game Started 🔥";
+        }
+    </script>
+
+</body>
+</html>
